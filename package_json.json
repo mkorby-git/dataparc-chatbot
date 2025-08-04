@@ -1,0 +1,59 @@
+{
+  "name": "dataparc-chatbot-widget",
+  "version": "1.2.0",
+  "description": "Lightweight, responsive chatbot widget for dataPARC website to help visitors find Sales, Support, and Documentation resources",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server . -p 8000 -c-1",
+    "deploy": "gh-pages -d .",
+    "test": "echo \"No tests specified\" && exit 0",
+    "lint": "echo \"No linting configured\" && exit 0",
+    "build": "echo \"No build process required - static HTML\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/dataparc-chatbot.git"
+  },
+  "keywords": [
+    "chatbot",
+    "dataparc",
+    "customer-support",
+    "sales-automation",
+    "industrial-data",
+    "responsive-design",
+    "vanilla-javascript",
+    "no-dependencies"
+  ],
+  "author": {
+    "name": "dataPARC Development Team",
+    "email": "dev@dataparc.com",
+    "url": "https://dataparc.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/dataparc-chatbot/issues"
+  },
+  "homepage": "https://github.com/yourusername/dataparc-chatbot#readme",
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ],
+  "files": [
+    "index.html",
+    "README.md",
+    "CHANGELOG.md",
+    "DEPLOYMENT.md",
+    "LICENSE",
+    "assets/",
+    "examples/"
+  ]
+}
