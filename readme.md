@@ -1,6 +1,6 @@
 # dataPARC Chatbot Widget
 
-A lightweight, responsive chatbot widget designed for the dataPARC website to help visitors find Sales, Support, and Documentation resources quickly and efficiently.
+A lightweight, responsive chatbot widget designed for the main dataPARC website, or dataPARC Community Forum, to help visitors find Sales, Support, and Documentation resources quickly and efficiently.
 
 ![Chatbot Demo](assets/chatbot-preview.png)
 
@@ -133,20 +133,20 @@ this.responses = {
 
 ```
 dataparc-chatbot/
-├── index.html              # Main demo file
-├── README.md              # This documentation
-├── CHANGELOG.md           # Version history
-├── LICENSE               # MIT License
+├── index.html               # Main demo file
+├── README.md                # This documentation
+├── CHANGELOG.md             # Version history
+├── LICENSE                  # MIT License
 ├── assets/
-│   ├── screenshots/      # Demo images
-│   └── docs/            # Additional documentation
+│   ├── screenshots/        # Demo images
+│   └── docs/               # Additional documentation
 ├── versions/
-│   ├── v1.0-basic.html  # Version archive
-│   ├── v1.1-mobile.html # Mobile optimizations
-│   └── v1.2-current.html # Latest version
+│   ├── v1.0-basic.html     # Version archive
+│   ├── v1.1-mobile.html    # Mobile optimizations
+│   └── v1.2-current.html   # Latest version
 └── examples/
-    ├── embed-example.html    # Integration example
-    └── custom-theme.html     # Theming example
+    ├── embed-example.html  # Integration example
+    └── custom-theme.html   # Theming example
 ```
 
 ## 🚀 Deployment Options
@@ -240,7 +240,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🏆 Acknowledgments
 
-- Built for dataPARC Industrial Data Intelligence platform
+- Built for the dataPARC IDI (Industrial Data Intelligence) platform
 - Optimized for industrial website user experience
 - Designed with mobile-first responsive principles
 
